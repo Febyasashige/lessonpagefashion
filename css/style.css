@@ -51,7 +51,6 @@ body {
     height: 100%;
     margin: 0 auto;
     padding-top: 95px;
-    z-index: -1;
 }
 
 .swiper-slide {
