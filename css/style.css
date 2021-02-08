@@ -1,7 +1,3 @@
-h1, h2, h3{
-    font-family: 'Bodoni URW', YuMincho, 'Yu Mincho', serif;
-}
-
 #site-header {
     position: fixed;
     width: 100%;
@@ -33,6 +29,7 @@ h1, h2, h3{
 
 #corporate-logo {
     margin: 29px auto 24px auto;
+    padding: 0%;
     font-size: 25px;
 }
 
@@ -51,6 +48,7 @@ body {
     height: 100%;
     margin: 0 auto;
     padding-top: 95px;
+    z-index: -1;
 }
 
 .swiper-slide {
@@ -65,8 +63,6 @@ body {
 }
 
 .top-title {
-    width: 100%;
-    height: 100%;
     position: absolute;
     top: 352px;
     left: 248px;
